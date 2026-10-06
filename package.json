@@ -1,0 +1,25 @@
+{
+  "name": "smart-expense-tracker",
+  "version": "1.0.0",
+  "description": "Smart Expense Tracker web application built using the MERN Stack",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "install-all": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "expense-tracker",
+    "tailwindcss",
+    "recharts"
+  ],
+  "author": "MERN Developer",
+  "license": "MIT"
+}
