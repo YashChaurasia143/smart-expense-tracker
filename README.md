@@ -1,5 +1,9 @@
 # Smart Expense Tracker
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-▶️-brightgreen)](https://smart-expense-tracker-14z6.onrender.com)
+
+**GitHub Repository:** [https://github.com/YashChaurasia143/smart-expense-tracker](https://github.com/YashChaurasia143/smart-expense-tracker)
+
 A full-stack **MERN** (MongoDB, Express.js, React.js, Node.js) expense management web application designed to track daily spending, visualize financial insights with interactive charts, and organize expenses with multi-criteria filtering and reporting.
 
 ---
@@ -23,6 +27,14 @@ A full-stack **MERN** (MongoDB, Express.js, React.js, Node.js) expense managemen
 * **CSV Export**: Export filtered expense records to CSV spreadsheet format.
 * **Protected API Routes**: Backend middleware guarding all private resource endpoints.
 * **Responsive UI**: Clean, mobile-friendly interface built with Tailwind CSS.
+
+---
+
+## Architecture
+
+![Architecture Diagram](file:///C:/Users/chaur/.gemini/antigravity-ide/brain/666cd075-fa4a-484d-ae61-fd917a991df6/architecture_diagram_1791491961673.jpg)
+
+The frontend (React/Vite) communicates with an Express.js API. JWT authentication secures the API, and an optional MongoDB database stores user and expense data. The app is served as a static build on Render.
 
 ---
 
